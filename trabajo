@@ -1,0 +1,19 @@
+class Punto:
+    def __init__(self,x,y):
+        self.x = x
+        self.y = y
+
+    def impresion(self):
+            print (f"{self.x} {self.y}")
+        
+    def opuesto(self, op_x, op_y):
+         
+        op_x = {self.x} - ({self.x}*{self.x})
+        op_y = {self.y} - ({self.y}*{self.y})
+            
+   
+punto1= Punto(4, 5)
+punto2= punto1.opuesto()
+print(punto2(op_x)(op_y))
+
+#punto1.impresion()
